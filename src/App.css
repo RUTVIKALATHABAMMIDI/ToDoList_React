@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: 'Merriweather', sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  background: #9cecfb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.Main_outer {
+  font-size: 60px;
+  padding-bottom: 1.25em;
+  padding-top: 0.5em;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.label {
+  font-size: 25px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4em;
+}
+
+.inpBox {
+  width: 25em;
+  text-align: center;
+  height: 2em;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 8% 0% 0% 8% / 50% 100% 10% 50%;
+}
+.insider {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.insider div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5px;
+  padding-left: 15px;
+  /* background: green; */
+}
+
+.insider div div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* .main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: green;
+} */
+.submitBtn {
+  background: transparent;
+  border: 2px solid black;
+  text-align: center;
+  width: 8em;
+  height: 2em;
+  border-left: none;
+  border-radius: 0% 20% 20% 0% / 50% 50% 50% 50%;
+}
+.submitBtn:hover{
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+}
+
+.insider :nth-child(n) {
+  padding: 0.25em;
+  /* border: 1px solid black; */
+}
+
+.insider :nth-child(n) :nth-child(2) {
+  /* border: 1px solid black; */
+  margin-left: 1em;
+  width: 40em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.insider :nth-child(n) :nth-child(3) {
+  /* border: 1px solid black; */
+  width: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+input[type="checkbox"]{
+  width: 1.5em; /*Desired width*/
+  height:1.5em; /*Desired height*/
+  cursor: pointer;
+}
